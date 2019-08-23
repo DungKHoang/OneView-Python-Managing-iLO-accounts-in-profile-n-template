@@ -12,7 +12,7 @@ The Python script updates an existing profile or template with iLO accounts sett
 
 ## Syntax
 
-### To export all resources
+
 
 ```
     python manage-iloaccount-in-profile-and-template.py
