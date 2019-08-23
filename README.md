@@ -1,4 +1,4 @@
-# Manage iLO accounst from server profiles and templates
+# Manage iLO accounts from server profiles and templates
 
 The Python script updates an existing profile or template with iLO accounts settings. In OneView v4.20, administrator can create iloaccounst directly from server rpofiles and templates. The script demonstrates this new feature using the OneView python library 
 
