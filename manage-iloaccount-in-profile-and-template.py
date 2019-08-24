@@ -18,16 +18,14 @@ from pprint import pprint
 import json
 import copy
 import csv
-import requests
-from requests.auth import AuthBase
+
 
 import os
 from os import sys
 import requests
 import re
 
-#from config_loader import try_load_from_file
-#from configloader import ConfigLoader
+
 
 from hpOneView.exceptions import HPOneViewException
 from hpOneView.oneview_client import OneViewClient
@@ -36,10 +34,6 @@ TABSPACE        = "    "
 COMMA           = ','
 CR              = '\n'
 CRLF            = '\r\n'
-IC_OFFSET       = 3         # Used to calculate bay number from InterconnectBaySet
-                            # InterconnectBaySet = 1 ---> Bay 1  and Bay 4
-                            # InterconnectBaySet = 2 ---> Bay 1  and Bay 5
-                            # InterconnectBaySet = 3 ---> Bay 1  and Bay 6
 
 
 
